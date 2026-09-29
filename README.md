@@ -20,13 +20,19 @@ Tool calls, files, activity, context left, and who is waiting on you, at a glanc
 
 <img src="docs/screenshots/wall.png" alt="Agent TV open in the BB sidebar footer, showing three live threads, one of them waiting for approval" width="900">
 
+<br><br>
+
+<a href="docs/agent-tv.mp4"><img src="docs/video-poster.jpg" alt="Play the 30-second Agent TV overview video" width="900"></a><br>
+<sub><b><a href="docs/agent-tv.mp4">Watch the 30-second overview</a></b> (MP4, with sound)</sub>
+
 </div>
 
 <br>
 
 > [!NOTE]
 > The screenshots are real captures of demo threads working on a throwaway
-> project. Unrelated threads were hidden.
+> project. Unrelated threads were hidden. The overview video is an animated
+> re-creation of the same wall.
 
 ## The problem
 
@@ -325,7 +331,7 @@ lib/peek.ts      hover-to-peek / click-to-keep state machine
 lib/popout.ts    keeps the detached monitor's header on screen
 components/ui/   vendored BB icon components (the shadcn model)
 skills/          the bundled agent skill
-docs/            logo and screenshots
+docs/            logo, screenshots and the overview video
 ```
 
 **Tests** run the pump against the official fake plugin host

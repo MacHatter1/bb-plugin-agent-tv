@@ -1,3 +1,5 @@
 * text=auto eol=lf
 *.png binary
+*.jpg binary
+*.mp4 binary
 package-lock.json linguist-generated=true
