@@ -6,6 +6,14 @@ All notable changes to Agent TV are documented here. The format follows
 
 ## Unreleased
 
+## 0.1.1 - 2026-10-01
+
+### Fixed
+
+- Pin `@hugeicons/core-free-icons` at 4.3.5. Release 4.3.4 points its icon
+  barrel at filenames that do not exist on a case-sensitive filesystem, so a
+  clean install fails while BB bundles the frontend.
+
 ## 0.1.0 - 2026-09-25
 
 ### Added
